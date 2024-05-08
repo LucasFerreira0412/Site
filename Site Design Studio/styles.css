@@ -1,0 +1,122 @@
+body {
+    font-family: CALIBRI;
+    margin: 0;
+    padding: 0;
+    background-image: url('background3.jpg');
+}
+#home {
+  background-image: url('designer.png');
+  padding: 18em;
+  width: 620px;
+  position: relative; 
+}
+
+#overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#services ul li {
+  list-style: disc;
+  color: #fff; 
+}
+#logo {
+  font-weight: bold;
+  float: left; 
+}
+#services {
+  background-color: #3e1f84;
+}
+#home {
+  background-image: url('designer.png');
+  padding: 18em;
+  width: 620px
+}
+#about {
+  background-color: #344f9a;
+}
+#tendencia {
+  background-color: #1e1d61;
+}
+#contact {
+  background-color: #2e1c57;
+}
+header {
+  background-color: #221a27;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+button {
+  background-color: #c5d7d9;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Add this line to make the corners rounded */
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"], input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #221a27;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #221a27;
+}
